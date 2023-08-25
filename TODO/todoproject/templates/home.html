@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container ">
+    <div class="align-self-center mt-4">
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Task name" name="task">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" placeholder="Enter your priority" name="priority">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col" class="form-group" >
+                        <input type="date" name="date">
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto">
+                            <input type="submit" style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br><br>
+<div class="row ml-4 mr-4">
+    {% for i in Task1 %}
+    <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{i.name}}</h5>
+                <p class="card-text">{{i.priority}}</p>
+                <p class="card-text">{{i.date}}</p>
+                <a href="{% url 'todoapp:delete' i.id %}" class="btn btn-primary">Finished</a>
+                <a href="{% url 'todoapp:update' i.id %}" class="btn btn-success">Update</a>
+            </div>
+        </div><br><br>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
