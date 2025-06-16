@@ -28,6 +28,7 @@ cd to-do-list/TODO
 ```bash
 python -m venv venv
 venv\Scripts\activate  # For Windows
+source env/bin/activate # For macOS/Linux
 ```
 
 3. Install Django:
