@@ -47,7 +47,7 @@ Visit: `http://127.0.0.1:8000/`
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/Screenshot 2025-06-16 145013.png)
+![Home Page](screenshots/Screenshot%202025-06-16%20145013.png)
 
 
 ## 🙋‍♂️ Author
