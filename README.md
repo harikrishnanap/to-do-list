@@ -36,7 +36,12 @@ venv\Scripts\activate  # For Windows
 pip install django
 ```
 
-4. Run the app:
+ 4. Install dependencies
+ ```bash  
+ pip install -r requirements.txt
+ ```
+
+5. Run the app:
 ```bash
 python manage.py migrate
 python manage.py runserver
@@ -51,7 +56,7 @@ Visit: `http://127.0.0.1:8000/`
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/Screenshot%202025-06-16%20145013.png)
+![Home Page](screenshots/Screenshot.png)
 
 
 ## 🙋‍♂️ Author
