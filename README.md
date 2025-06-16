@@ -13,9 +13,8 @@
 
 - Python  3.13.2  
 - Django Framework  
-- HTML/CSS  
-- Bootstrap 4  
-- SQLite3 (default DB)
+- HTML/CSS   
+- SQLite3
 
 ## ⚙️ Installation Instructions
 
