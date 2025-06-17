@@ -1,21 +1,21 @@
 
 # ✅ To-Do List App  
 *A simple Django web app for managing daily tasks*
-
+---
 ## 🚀 Features
 
 - ✅ Add tasks  
 - ✏️ Edit tasks  
 - ❌ Delete tasks  
 - 📋 View all tasks
-
+---
 ## 🛠️ Technologies Used
 
 - Python  3.13.2  
 - Django Framework  
 - HTML/CSS   
 - SQLite3
-
+---
 ## ⚙️ Installation Instructions
 
 1. Clone the repo:
@@ -48,16 +48,16 @@ python manage.py runserver
 ```
 
 Visit: `http://127.0.0.1:8000/`
-
-### 🚀 Live Demo
+---
+## 🚀 Live Demo
 
 🟢 [to-do-list is live here](https://harikrishnanap.pythonanywhere.com/)
-
+---
 ## 📸 Screenshots
 
 ### 🏠 Home Page
 ![Home Page](screenshots/Screenshot.png)
-
+---
 
 ## 🙋‍♂️ Author
 
